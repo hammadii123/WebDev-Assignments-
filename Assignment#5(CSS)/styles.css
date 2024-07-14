@@ -1,0 +1,46 @@
+/* a */
+
+body * {
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+  }
+  
+/* b */
+  h1 {
+    color: darkblue;
+    text-align: center;
+  }
+  
+/* c */
+  #main-title {  
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+/* d */
+  .intro-paragraph {
+    font-style: italic;
+    line-height: 1.5;
+  }
+  
+/* e */
+  .content-paragraph {
+    text-transform: uppercase;
+  }
+  
+  /* f */
+  p span:first-child { 
+    font-weight: bold;
+  }
+  
+  /* g */
+  .nav-link {
+    background-color: #f2f2f2;
+    padding: 5px;
+  }
+  
+  /* h*/
+  .color-box p {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
