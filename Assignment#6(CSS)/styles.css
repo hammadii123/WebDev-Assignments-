@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0bf1f3;
+  background-image: linear-gradient(225deg, #0bf1f3 0%, #fb04ff 100%);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 900px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  width: calc(40% - 20px);
+  box-sizing: border-box;
+  position: relative; /* Add this line */
+}
+
+.card::before {
+  content: "Nearest Seller" ;
+  border-radius: 15px;
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+  padding: 5px 10px; 
+  
+  color: white;
+  font-size: 12px; 
+  text-transform: uppercase; 
+  background-color: #6927c9;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.card-content p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.add-to-cart {
+  background-color: #242c31; /* Light purple */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.buy-now {
+  background-color: #6927c9; /* Dark purple */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.card:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover:after {
+  opacity: 0.7;
+}

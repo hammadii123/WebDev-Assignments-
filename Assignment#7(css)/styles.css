@@ -1,0 +1,39 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.product-list {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product {
+    overflow: hidden;
+    
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    float: left;
+    margin-right: 20px;
+}
+
+.product-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.order-number, .rating {
+    margin-right: 10px;
+}
+
+.star-rating {
+    font-size: 1.2em;
+    color: gold;
+}
+
+p1{
+    color: red;
+}
