@@ -1,0 +1,67 @@
+
+img.cookie {
+    width: 900px;
+}
+
+
+ul {
+    list-style-type: circle;
+    font-family: 'Arial', sans-serif; 
+}
+
+
+ol {
+    list-style-type: none;
+    padding-left: 40px; 
+}
+
+ol li {
+    list-style-image: url(); 
+   
+    background-repeat: no-repeat;
+    background-position: 0 0.2em;
+    padding-left: 20px; 
+}
+
+
+ul, ol {
+    list-style-position: outside;
+}
+
+
+.ingredients li {
+    font-size: 1.2em;
+}
+
+
+header {
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+
+.preparation {
+    background-color: #bdb2b2; 
+}
+
+
+header {
+    font-family: 'Georgia', serif; 
+}
+
+
+.ingredients li {
+    line-height: 1.5em;
+}
+
+
+.recipe-details {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+ol {
+    width: 500px;
+    text-align: right;
+}
