@@ -1,0 +1,592 @@
+@font-face {
+  font-family: futura;
+  src: url(./Assets/Futura\ Black.ttf);
+}
+@font-face {
+  font-family: futura1;
+  src: url(./Assets/Futura\ Black\ Regular.otf);
+}
+
+@font-face {
+  font-family: hiragino;
+  src: url(./Assets/Hiragino\ Sans\ GB\ W05\ W4.otf);
+}
+
+* {
+  text-decoration: none;
+  font-family: hiragino;
+}
+
+.nav {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+  width: 170px;
+}
+
+ul li {
+  display: inline-block;
+  font-size: large;
+}
+
+ul {
+  display: flex;
+  gap: 25px;
+}
+
+li a {
+  color: white;
+}
+
+.content {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.btn1 {
+  height: 50px;
+  width: 140px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.btn2 {
+  height: 50px;
+  width: 150px;
+  color: white;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 15px;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.contentsec {
+  background-color: black;
+}
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.data {
+  height: 500px;
+  width: 100%;
+}
+
+.write {
+  height: max-content;
+  width: max-content;
+  text-align: center;
+  margin: 50px auto;
+  color: white;
+  line-height: 25px;
+}
+
+.logo1 {
+  height: max-content;
+  width: 260px;
+  margin: 10px;
+  float: left;
+}
+
+.sec {
+  background-color: black;
+}
+.cards {
+  height: max-content;
+  width: max-content;
+  margin: 50px auto;
+}
+.image {
+  height: max-content;
+  width: max-content;
+  margin: 20px auto;
+}
+
+.log1 {
+  background-color: aliceblue;
+  background-image: url(./Assets/Restaurant.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 250px;
+  float: left;
+  border-radius: 5px;
+}
+
+.log2 {
+  background-color: aliceblue;
+  background-image: url(./Assets/express.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 250px;
+  float: left;
+  border-radius: 5px;
+}
+
+.log3 {
+  background-color: aliceblue;
+  background-image: url(./Assets/Village.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 250px;
+  float: left;
+  border-radius: 5px;
+}
+
+img {
+  height: 250px;
+  width: 300px;
+}
+
+.orderbtn {
+  height: 40px;
+  width: 160px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.btn {
+  height: max-content;
+  width: max-content;
+  margin: 200px auto 0px auto;
+}
+
+.head {
+  font-size: 40px;
+}
+
+h1 span {
+  font-family: futura1;
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: large;
+  color: gray;
+}
+
+.franchisediv {
+  height: 1330px;
+  background-color: #141313;
+  margin: 0px;
+  padding: 5px;
+}
+
+.contentdiv {
+  height: max-content;
+  width: max-content;
+  text-align: center;
+  color: white;
+  margin: 0px auto;
+  line-height: 20px;
+}
+
+.head1 {
+  font-family: futura1;
+  font-size: 70px;
+}
+.para {
+  color: white;
+}
+
+.location {
+  display: flex;
+  margin: 50px auto;
+  height: max-content;
+  width: max-content;
+}
+
+.location2 {
+  display: flex;
+  margin: 50px auto;
+  height: max-content;
+  width: max-content;
+  flex-direction: row-reverse;
+}
+
+.locdata {
+  height: 300px;
+  width: 550px;
+}
+
+.locdata2 {
+  height: 300px;
+  width: 550px;
+  margin: 0px 30px;
+}
+
+.locimg1 {
+  height: 300px;
+  width: 550px;
+  margin: 0px 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./Assets/islamabad.webp);
+}
+
+.locimg2 {
+  height: 300px;
+  width: 550px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./Assets/fsl.webp);
+}
+
+.locimg3 {
+  height: 300px;
+  width: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./Assets/bwl.webp);
+}
+
+.logbtn {
+  height: 50px;
+  width: 140px;
+  color: white;
+  background-color: #141313;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-top: 40px;
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.icon1 {
+  font-size: 20px;
+}
+.arrow {
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.locname {
+  font-size: 30px;
+  color: white;
+  margin-right: 5px;
+  margin-top: 0px;
+  line-height: 2px;
+}
+
+.name {
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.add {
+  font-size: 15px;
+  line-height: 10px;
+}
+
+.phone {
+  font-size: 15px;
+  line-height: 0px;
+}
+
+h1 {
+  color: white;
+  font-weight: lighter;
+}
+
+.loc {
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-size: medium;
+}
+
+.branchdiv {
+  height: 2400px;
+  background-color: black;
+  margin: 0px;
+  padding: 5px;
+}
+
+.contentdiv2 {
+  height: max-content;
+  width: max-content;
+  text-align: center;
+  color: white;
+  margin: 0px auto;
+  line-height: 20px;
+}
+
+.locimge1 {
+  height: 250px;
+  width: 330px;
+  background-image: url(./Assets/em.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.loce {
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-size: 12px;
+}
+
+.express {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.locnamee {
+  font-size: 25px;
+  color: white;
+  margin-right: 5px;
+  margin-top: 0px;
+  line-height: 2px;
+}
+
+.adde {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.phonee {
+  font-size: 12px;
+  line-height: 50px;
+}
+
+.expressloc {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.locatione {
+  height: 500px;
+  width: 330px;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.logbtne {
+  height: 50px;
+  width: 140px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-top: 15px;
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.locimge2 {
+  height: 250px;
+  width: 330px;
+  background-image: url(./Assets/eguj.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.locimge3 {
+  height: 250px;
+  width: 330px;
+  background-image: url(./Assets/esar.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.locimge4 {
+  height: 250px;
+  width: 330px;
+  background-image: url(./Assets/ejhe.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.locimge5 {
+  height: 250px;
+  width: 330px;
+  background-image: url(./Assets/efai.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.locimge6 {
+  height: 250px;
+  width: 330px;
+  background-image: url(./Assets/edha.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.locimge7 {
+  height: 250px;
+  width: 330px;
+  background-image: url(./Assets/ebt.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.locimge8 {
+  height: 250px;
+  width: 330px;
+  background-image: url(./Assets/egk.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.locimge9 {
+  height: 250px;
+  width: 330px;
+  background-image: url(./Assets/el.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.locimge10 {
+  height: 250px;
+  width: 330px;
+  background-image: url(./Assets/egujra.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.locimge11 {
+  height: 250px;
+  width: 330px;
+  background-image: url(./Assets/esah.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.vbranch {
+  height: 620px;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: #141313;
+}
+
+.vcontentdiv {
+  height: max-content;
+  width: max-content;
+  display: flex;
+  gap: 30px;
+}
+
+.vlocimg {
+  height: 400px;
+  width: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./Assets/vgujar.webp);
+}
+
+.vlocation {
+  display: flex;
+  height: 400px;
+  width: 750px;
+}
+
+.vloc {
+  color: red;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.vlocname {
+  font-size: 30px;
+}
+
+.addp {
+  line-height: 5px;
+  margin-top: 40px;
+}
+
+.vadd {
+  font-size: 15px;
+}
+
+.vphone {
+  font-size: 15px;
+}
+
+.vlogbtn {
+  height: 50px;
+  width: 160px;
+  color: white;
+  background-color: #1e9c2f;
+  border: 1px solid #1e9c2f;
+  border-radius: 30px;
+  margin-top: 60px;
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  padding-left: 15px;
+}
+
+.vicon {
+  font-size: 30px;
+  background-color: #1e9c2f;
+}
+
+.varrow {
+  color: white;
+  background-color: #1e9c2f;
+  border-radius: 50%;
+}
