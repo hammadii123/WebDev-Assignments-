@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary my-0">
+            <div class="container-fluid navigation">
+
+                <img class="logo1" src="./images/logo1.png" alt="">
+
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbarSpace">
+                        <li class="nav-item navtext">
+                            <a class="nav-link active my-4 " aria-current="page" href="#">Dilivered to: <span><img
+                                        src="./images/map-marker-alt.png" alt=""></span> Current Location Mohammadpur
+                                Bus Stand, Dhaka</a>
+                        </li>
+
+
+                        <form class="d-flex seachFunction" role="search">
+                            <!-- <input class="form-control me-2 mx-2 search" type="search" placeholder="Search" aria-label="Search"> -->
+
+                            <span>
+                                <img class="srch_img" src="./images/Search.png " alt="">
+                                <button class="btn btn-outline-success srch " type="submit">Search food</button>
+                            </span>
+                        </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+    <!-- body1 -->
+
+
+
+    <div class="container1">
+        <div class="leftside1">
+            <h1 class="txt1 txt">Are you starving?</h1>
+            <h1 class="txt2 txt">Within a few clicks, find meals that are accessible near you</h1>
+
+            <div class="card ">
+                <div class="firstLayer">
+                    <span>
+                        <button class="b1">
+                            <img class="mx-2" src="./images/bike.png" alt="">
+                            <span> Dilivery</span>
+                        </button>
+                    </span>
+
+                    <span>
+                        <button class="b2">
+                            <img class="mx-2" src="./images/wallet.png" alt=""><span>pickup</span>
+
+                        </button>
+                    </span>
+                </div>
+
+                <div class="secondLayer">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control " placeholder="Enter your address"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary btn1" type="button" id="button-addon2">Find
+                            Food</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rightside1">
+            <div class="image1 translate1">
+                <img src="./images/ImageBase.png" alt="">
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <!-- body2 -->
+    <!-- cards -->
+
+    <div class="body2">
+
+        <div class="cards" style="width: 18rem;">
+            <img src="./images/cards4.png" class="card-img-top c1" alt="...">
+            <div class="card-body">
+                <h5 class="card-title1 fw-bold text-1000 text-truncate my-2"><b>Ağababa</b></h5>
+
+                <button type="button " class="btn btn-danger position-relative b3">
+                    7 days remaining
+                    <span
+                        class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                        <span class="visually-hidden">New alerts</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- 2) -->
+        <div class="cards" style="width: 18rem;">
+            <img src="./images/dish1.png" class="card-img-top c2" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title2 fw-bold text-1000 text-truncate my-2">Alesta Kebap Restoran</h5>
+
+                <button type="button " class="btn btn-danger position-relative b3">
+                    6 days remaining
+                    <span
+                        class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                        <span class="visually-hidden">New alerts</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- 3) -->
+        <div class="cards" style="width: 18rem;">
+            <img src="./images/dish2.png" class="card-img-top c3" alt="...">
+            <div class="card-body">
+                <h5 class="card-title3 fw-bold text-1000 text-truncate my-2">Coffeetopia</h5>
+
+                <button type="button " class="btn btn-danger position-relative b3">
+                    8 days remaining
+                    <span
+                        class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                        <span class="visually-hidden">New alerts</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <!-- 4) -->
+        <div class="cards" style="width: 18rem;">
+            <img src="./images/dish3.png" class="card-img-top c4" alt="...">
+            <div class="card-body">
+                <h5 class="card-title4 fw-bold text-1000 text-truncate my-2">Tike</h5>
+
+                <button type="button " class="btn btn-danger position-relative b3">
+                    7 days remaining
+                    <span
+                        class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                        <span class="visually-hidden">New alerts</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- BODY3 -->
+    <div class="body3">
+
+        <div class="text t1">
+            <p> How does it work </p>
+        </div>
+
+        <div class="body3Cards">
+
+            <!-- Card 1 -->
+            <div class="cards d-flex flex-column align-items-center" style="width: 18rem;">
+                <img src="./images/body3.img1.png" class="card-img-top c1" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title1 text-1000 my-2"><b>Select location</b></h5>
+                    <p>Choose the location where your food will be delivered.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="cards d-flex flex-column align-items-center" style="width: 18rem;">
+                <img src="./images/body3.img2.png" class="card-img-top c2" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title2  text-1000 my-2"><b>Choose order</b></h5>
+                    <p>Check over hundreds of menus to pick your favorite food</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="cards d-flex flex-column align-items-center" style="width: 18rem;">
+                <img src="./images/body3.img3.png" class="card-img-top c3" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title3  text-1000 my-2"><b>Pay advanced</b></h5>
+                    <p>It's quick, safe, and simple. Select several methods of payment</p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="cards d-flex flex-column align-items-center" style="width: 18rem;">
+                <img src="./images/body3.img4.png" class="card-img-top c4" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title4 text-1000 my-2"><b>Enjoy meals</b></h5>
+                    <p>Food is made and delivered directly to your home.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- SUB_BODY1-->
+
+
+
+
+        <p class="t2">
+            Popular items
+        </p>
+        <div class="subBody1">
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/Cheese_Burger.png" class="card-img-top s1" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title1 fw-bold text-1000 text-truncate my-2">Cheese Burger</h5>
+                    <h6 class="color"><span><img class="mx-2" src="./images/map-marker-alt.png" alt=""></span>Burger
+                        Arena</h6>
+                    <h6 class="mx-3 my-0"><b>$5.38</b></h6>
+
+                    <button type="button " class="btn btn-danger position-relative b1 subBody1_b1">
+                        Order now
+
+                    </button>
+                </div>
+            </div>
+
+            <!-- 2) -->
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/Koffe's_Cake.png" class="card-img-top s2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title2 fw-bold text-1000 text-truncate my-2 text-left">Toffe's Cake</h5>
+                    <h6 class="color"><span><img class="mx-2" src="./images/map-marker-alt.png" alt=""></span>Top Sticks
+                    </h6>
+                    <h6 class="mx-3 my-0"><b>$2.44</b></h6>
+
+                    <button type="button " class="btn btn-danger position-relative b2 subBody1_b2">
+                        Order now
+
+                    </button>
+                </div>
+            </div>
+
+            <!-- 3) -->
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/Dan_Cake.png" class="card-img-top s3" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title3 fw-bold text-1000 text-truncate my-2 text-left">Dan Cake</h5>
+                    <h6 class="color"><span><img class="mx-2" src="./images/map-marker-alt.png" alt=""></span> Cake
+                        World</h6>
+                    <h6 class="mx-3 my-0"><b>$3.78</b></h6>
+
+                    <button type="button " class="btn btn-danger position-relative b3 subBody1_b3 ">
+                        Order now
+
+                    </button>
+                </div>
+            </div>
+            <!-- 4) -->
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/Thai_Soup.png" class="card-img-top s4" alt="...">
+                <div class="card-body ">
+                    <h5 class="card-title4 fw-bold text-1000 text-truncate my-1 text-left">Thai soup</h5>
+                    <h6 class="color"><span><img class="mx-2 my-1" src="./images/map-marker-alt.png" alt=""></span>Foody
+                        Man</h6>
+                    <h6 class="mx-3 my-0"><b>$3.88</b></h6>
+
+                    <button type="button " class="btn btn-danger position-relative b4 text-centerr subBody1_b4">
+                        Order now
+
+                    </button>
+                </div>
+            </div>
+            <!-- 5)) -->
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/Crispy_Sandwitch.png" class="card-img-top s4" alt="...">
+                <div class="card-body ">
+                    <h5 class="card-title4 fw-bold text-1000 text-truncate my-2 text-left">Crispy Sandwitch</h5>
+                    <h6 class="color"><span><img class="mx-2 text-left" src="./images/map-marker-alt.png"
+                                alt=""></span>Fastfood Dine</h6>
+                    <h6 class="mx-3 my-0"><b>$1.88</b></h6>
+
+                    <button type="button " class="btn btn-danger position-relative b4 subBody1_b5">
+                        Order now
+
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- SUB_BODY2 -->
+        <p class="t2">
+            Featured Restaurants
+        </p>
+        <div class="subBody2">
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/subBody2_img1.png" class="card-img-top s5" alt="...">
+
+                <!-- Badges -->
+                <div class="badge-container">
+                    <span class="badge1 bg-warning "> <span><img class="mx-1 icon1" src="./images/Icon.png"
+                                alt=""></span>20% off</span>
+                    <span class="badge2 bg-warning "> <span><img class="icon2" src="./images/Icon2.png"
+                                alt=""></span>Fast</span>
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title1 fw-bold text-1000 text-truncate my-2 "><span><img class="my-2 mx-2"
+                                src="./images/subBody2_icon1.png" alt="" width="50" height="50"></span>Food World</h5>
+                    <h6 class="color"><span><img class="mx-2" src="./images/map-marker-alt.png" alt=""></span>Burger
+                        Arena</h6>
+                    <h6 class="mx-3 my-0"><b>$5.38</b></h6>
+
+                    <button type="button " class="btn btn-danger position-relative b1 subBody2_b1">
+                        Opens Tomorrow
+
+                    </button>
+                </div>
+            </div>
+
+            <!-- 2) -->
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/subBody2_img2.png" class="card-img-top s6" alt="...">
+
+                <!-- Badges -->
+                <div class="badge-container">
+                    <span class="badge1 bg-warning "> <span><img class="mx-1 icon1" src="./images/Icon.png"
+                                alt=""></span>20% off</span>
+                    <span class="badge2 bg-warning "> <span><img class="icon2" src="./images/Icon2.png"
+                                alt=""></span>Fast</span>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title2 fw-bold text-1000 text-truncate my-2 text-left"><span><img class="my-2 mx-2"
+                                src="./images/subBody2_icon2.png" alt="" width="50" height="50"></span>Pizza hub</h5>
+                    <h6 class="color"><span><img class="mx-2" src="./images/map-marker-alt.png" alt=""></span>Top Sticks
+                    </h6>
+                    <h6 class="mx-3 my-0"><b>$2.44</b></h6>
+
+                    <button type="button " class="btn btn-danger position-relative b2 subBody2_b2">
+                        Opens Tomorrow
+
+                    </button>
+                </div>
+            </div>
+
+            <!-- 3) -->
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/subBody2_img3.png" class="card-img-top s7" alt="...">
+
+                <!-- Badges -->
+                <div class="badge-container">
+                    <span class="badge1 bg-warning "> <span><img class="mx-1 icon1" src="./images/Icon.png"
+                                alt=""></span>20% off</span>
+                    <span class="badge2 bg-warning "> <span><img class="icon2" src="./images/Icon2.png"
+                                alt=""></span>Fast</span>
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title3 fw-bold text-1000 text-truncate my-2 text-left"><span><img class="my-2 mx-2" src="./images/subBody2_icon3.png" alt="" width="50" height="50"></span>Donuts hut</h5>
+                    <h6 class="color"><span><img class="mx-2" src="./images/map-marker-alt.png" alt=""></span> Cake
+                        World</h6>
+                    <h6 class="mx-3 my-0"><b>$3.78</b></h6>
+
+                    <button type="button " class="btn btn-success position-relative b3 subBody2_b3 ">
+                        Open now
+
+                    </button>
+                </div>
+            </div>
+            <!-- 4) -->
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/subBody2_img4.png" class="card-img-top s8" alt="...">
+
+                <!-- Badges -->
+                <div class="badge-container">
+                    <span class="badge1 bg-warning "> <span><img class="mx-1 icon1" src="./images/Icon.png"
+                                alt=""></span>20% off</span>
+                    <span class="badge2 bg-warning "> <span><img class="icon2" src="./images/Icon2.png"
+                                alt=""></span>Fast</span>
+                </div>
+
+                <div class="card-body ">
+                    <h5 class="card-title4 fw-bold text-1000 text-truncate my-1 text-left"><span><img class="my-2 mx-2" src="./images/subBody2_icon4.png" alt="" width="50" height="50"></span>Donuts hut</h5>
+                    <h6 class="color"><span><img class="mx-2 my-1" src="./images/map-marker-alt.png" alt=""></span>Foody
+                        Man</h6>
+                    <h6 class="mx-3 my-0"><b>$3.88</b></h6>
+
+                    <button type="button " class="btn btn-success position-relative b4 text-centerr subBody2_b4">
+                        Opens now
+
+                    </button>
+                </div>
+            </div>
+
+
+
+            <!-- 5)) -->
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/subBody2_img5.png" class="card-img-top s9" alt="...">
+
+                <!-- Badges -->
+                <div class="badge-container">
+                    <span class="badge1 bg-warning "> <span><img class="mx-1 icon1" src="./images/Icon.png"
+                                alt=""></span>20% off</span>
+                    <span class="badge2 bg-warning "> <span><img class="icon2" src="./images/Icon2.png"
+                                alt=""></span>Fast</span>
+                </div>
+
+
+                <div class="card-body ">
+                    <h5 class="card-title4 fw-bold text-1000 text-truncate my-1 text-left"><span><img class="my-2 mx-2" src="./images/subBody2_icon5.png" alt="" width="50" height="50"></span> Ruby tuesday</h5>
+                    <h6 class="color"><span><img class="mx-2 my-1" src="./images/map-marker-alt.png" alt=""></span>Foody
+                        Man</h6>
+                    <h6 class="mx-3 my-0"><b>$3.88</b></h6>
+
+                    <button type="button " class="btn btn-success position-relative b4 text-centerr subBody2_b5">
+                        Opens now
+
+                    </button>
+                </div>
+            </div>
+
+            <!-- 6)) -->
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/subBody2_img6.png" class="card-img-top s10" alt="...">
+
+                <!-- Badges -->
+                <div class="badge-container">
+                    <span class="badge1 bg-warning "> <span><img class="mx-1 icon1" src="./images/Icon.png"
+                                alt=""></span>20% off</span>
+                    <span class="badge2 bg-warning "> <span><img class="icon2" src="./images/Icon2.png"
+                                alt=""></span>Fast</span>
+                </div>
+
+
+                <div class="card-body ">
+                    <h5 class="card-title4 fw-bold text-1000 text-truncate my-1 text-left"><span><img class="my-2 mx-2" src="./images/subBody2_icon6.png" alt="" width="50" height="50"></span>Kuakata Fried Chicken</h5>
+                    <h6 class="color"><span><img class="mx-2 my-1" src="./images/map-marker-alt.png" alt=""></span>Foody
+                        Man</h6>
+                    <h6 class="mx-3 my-0"><b>$3.88</b></h6>
+
+                    <button type="button " class="btn btn-success position-relative b4 text-centerr subBody2_b6">
+                        Opens now
+
+                    </button>
+                </div>
+            </div>
+
+            <!-- 7)) -->
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/subBody2_img7.png" class="card-img-top s11" alt="...">
+
+                <!-- Badges -->
+                <div class="badge-container">
+                    <span class="badge1 bg-warning "> <span><img class="mx-1 icon1" src="./images/Icon.png"
+                                alt=""></span>20% off</span>
+                    <span class="badge2 bg-warning "> <span><img class="icon2" src="./images/Icon2.png"
+                                alt=""></span>Fast</span>
+                </div>
+
+
+                <div class="card-body ">
+                    <h5 class="card-title4 fw-bold text-1000 text-truncate my-1 text-left"><span><img class="my-2 mx-2" src="./images/subBody2_icon7.png" alt="" width="50" height="50"></span>Kuakata Fried Chicken</h5>
+                    <h6 class="color"><span><img class="mx-2 my-1" src="./images/map-marker-alt.png" alt=""></span>Foody
+                        Man</h6>
+                    <h6 class="mx-3 my-0"><b>$3.88</b></h6>
+
+                    <button type="button " class="btn btn-success position-relative b4 text-centerr subBody2_b7">
+                        Opens now
+
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- 8)) -->
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/subBody2_img8.png" class="card-img-top s12" alt="...">
+
+                <!-- Badges -->
+                <div class="badge-container">
+                    <span class="badge1 bg-warning "> <span><img class="mx-1 icon1" src="./images/Icon.png"
+                                alt=""></span>20% off</span>
+                    <span class="badge2 bg-warning "> <span><img class="icon2" src="./images/Icon2.png"
+                                alt=""></span>Fast</span>
+                </div>
+
+
+                <div class="card-body ">
+                    <h5 class="card-title4 fw-bold text-1000 text-truncate my-1 text-left"><span><img class="my-2 mx-2" src="./images/subBody2_icon8.png" alt="" width="50" height="50"></span>Taco bell</h5>
+                    <h6 class="color"><span><img class="mx-2 my-1" src="./images/map-marker-alt.png" alt=""></span>Foody
+                        Man</h6>
+                    <h6 class="mx-3 my-0"><b>$3.88</b></h6>
+
+                    <button type="button " class="btn btn-success position-relative b4 text-centerr subBody2_b8">
+                        Opens now
+
+                    </button>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="viewAll">
+            <button type="button" class="btn btn-warning view">View All ></button>
+        </div>
+
+
+
+
+
+
+
+
+        <!-- subBody3 -->
+        <p class="t3">
+            Search by food
+        </p>
+        <div class="subBody3">
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/subBody3_icon1.png" class="card-img-top sss1" alt="...">
+
+                
+
+                <div class="card-body">
+                    <h5 class="card-title1 fw-bold text-1000 text-truncate my-2 ttt1">Pizza</h5>
+                   
+                </div>
+            </div>
+
+<!-- 2)) -->
+            <div class="cards" style="width: 18rem;">
+                <img src="./images/subBody3_icon2.png" class="card-img-top sss2" alt="...">
+
+                
+
+                <div class="card-body">
+                    <h5 class="card-title1 fw-bold text-1000 text-truncate my-2 ttt2 ">Burger</h5>
+                   
+                </div>
+            </div>
+
+
+<!-- 3)) -->
+<div class="cards" style="width: 18rem;">
+    <img src="./images/subBody3_icon3.png" class="card-img-top sss3" alt="...">
+
+    
+
+    <div class="card-body">
+        <h5 class="card-title1 fw-bold text-1000 text-truncate my-2 ttt3">Noodles</h5>
+       
+    </div>
+</div>
+
+
+<!-- 4)) -->
+<div class="cards" style="width: 18rem;">
+    <img src="./images/subBody3_icon4.png" class="card-img-top sss4" alt="...">
+
+    
+
+    <div class="card-body">
+        <h5 class="card-title1 fw-bold text-1000 text-truncate my-2 ttt4">Sub-sandwiches</h5>
+       
+    </div>
+</div>
+
+
+<!-- 5))) -->
+<div class="cards" style="width: 18rem;">
+    <img src="./images/subBody3_icon5.png" class="card-img-top sss5" alt="...">
+
+    
+
+    <div class="card-body">
+        <h5 class="card-title1 fw-bold text-1000 text-truncate my-2 ttt5">Chowmein</h5>
+       
+    </div>
+</div>
+
+
+<!-- 6)) -->
+<div class="cards" style="width: 18rem;">
+    <img src="./images/subBody3_icon6.png" class="card-img-top sss6" alt="...">
+
+    
+
+    <div class="card-body">
+        <h5 class="card-title1 fw-bold text-1000 text-truncate my-2 ttt6">Steak</h5>
+       
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+         
+
+            </div>
+
+
+
+        
+
+
+
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
